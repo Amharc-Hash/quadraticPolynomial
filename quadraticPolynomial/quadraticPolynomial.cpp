@@ -5,7 +5,7 @@
 int main()
 {
     double a, b, c, x1, x2;
-    printf("input coefficient x^2,x,number Respectively : ");
+    printf("input coefficient x^2,x,number Respectively (follow this pattern : 1 5 6) : ");
     scanf("%lf %lf %lf", &a, &b, &c);
     x1 = ((-1 * b) + (sqrt(pow(b, 2) - (4 * a * c)))) / (2 * a);
     x2 = ((-1 * b) - (sqrt(pow(b, 2) - (4 * a * c)))) / (2 * a);
